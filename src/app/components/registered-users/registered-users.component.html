@@ -1,0 +1,7 @@
+<div class=" my-4 container">
+<ul class="list-group">
+  <li *ngFor="let user of users" class="list-group-item" style="font-weight: bold;">
+    {{user.firstName | uppercase}} {{user.lastName | uppercase}}
+  </li>
+</ul>
+</div>
